@@ -15,6 +15,11 @@ Click on the below image to check the results:
 ### Optical Flow Demo
 Click on the below image to check the results:
 [![Watch the video](https://github.com/EhtishamAshraf/object_detection_MATLAB/blob/main/optical_flow.PNG)](https://youtu.be/Q3JwrSOYsh8)
+
+The bounding boxes around detected cars display a numerical value inside them. This value represents the mean intensity of the optical flow in the horizontal direction. The optical flow vector field gives information about the movement of objects between consecutive frames.
+1. Positive values of mean intensity indicate that the detected cars are moving to the right.
+2. Negative values of mean intensity indicate that the detected cars are moving to the left.
+
 ## Requirements
 
 To run the scripts in this repository, you need the following:
